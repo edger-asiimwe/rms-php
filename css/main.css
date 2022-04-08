@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+}
+
+/* Form Styling */
+
+
+/* Table styling */
+
+#statistics {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+#statistics td, #statistics th {
+    border: 1px solid rgb(41, 57, 194);
+    padding: 8px;
+}
+  
+#statistics tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+#statistics tr:hover {
+    background-color: #ddd;
+}
+  
+#statistics th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #c8d8e4;
+    color: white;
+}
+
+/* Table styling */
+
+
+/* Navigation bar */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 57, 194);
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 57, 194);
+}
+
+  
+ul.topnav li {
+    float: left;
+}
+  
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul.topnav li a:hover:not(.active) {
+    background-color: rgb(41, 57, 194);
+}
+  
+ul.topnav li a.active {
+    background-color: rgb(41, 57, 194);
+}
+  
+ul.topnav li.right {
+    float: right;
+    background-color: rgb(41, 57, 194);
+}
+  
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;
+    }
+}
+
+
+/* Index page */
+#container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+}
+  
+
